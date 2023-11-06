@@ -194,6 +194,7 @@ header {
 .media-social a{
     font-size: 27px;
     margin: 0.5rem;
+    color: var(--main-color);
 }
 
 .media-social a .bx{
