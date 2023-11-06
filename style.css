@@ -25,9 +25,11 @@ section{
 }
 
 img{
-    width: 100px;
+    width: 100%;
 }
 
+
+/* ------------------------- NAVBAR ----------------------- */
 header {
     position: fixed;
     width: 100%;
@@ -68,3 +70,65 @@ header {
 .navbar a:hover {
     color: var(--main-color);
 }
+/* -------------------------------- NAVBAR ------------------------ */
+
+/* -------------------------------- HOME ------------------------ */
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #fff;
+    gap: 1rem;
+}
+
+.home-text {
+    flex: 1 1 17rem;
+}
+
+.home-image {
+    flex: 1 1 17rem;
+}
+
+
+.home-text h1{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.home-text span{
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: 600;
+    color: var(--second-color)
+}
+
+.home-text span{
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.btn{
+    padding: 7px 16px;
+    border: 2px solid var(--second-color);
+    border-radius: 40px;
+    color: var(--second-color);
+    font-family: 500;
+}
+
+.btn:hover {
+    color: #fff;
+    background: var(--second-color);
+}
+/* --------------------------------------- HOME ---------------------------------- */
