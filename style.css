@@ -227,3 +227,46 @@ header {
     text-align: center;
 }
 /* ------------------------------------- CONTACT ------------------------------------- */
+
+/* -------------------------------------- RESPONSIVE ------------------------------------ */
+@media (max-width: 1150px) {
+    header {
+        padding: 18px 7%;
+    }
+    section {
+        padding: 50px 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 11px 4%;
+    }
+    #menu-icon {
+        display: initial;
+    }
+    header .navbar {
+        position: absolute;
+        top: -500%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        box-shadow: 0 4px 4px;
+        border-top: 2px solid var(--main-color);
+        transition: 0.2s;
+        text-align: left;
+    }
+
+    .navbar .active {
+        top: 100%;
+    }
+
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+        color: var(--second-color);
+    }
+}
+/* -------------------------------------- RESPONSIVE ------------------------------------ */
