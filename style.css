@@ -132,3 +132,22 @@ header {
     background: var(--second-color);
 }
 /* --------------------------------------- HOME ---------------------------------- */
+
+/* -------------------------------------- PRODUCT ---------------------------------- */
+.varian {
+    display: flex;
+    align-items: center;
+}
+
+.varian img {
+    width: 250px;
+}
+
+.product h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: var(--second-color);
+    text-align: center;
+}
+/* ------------------------------------- PRODUCT --------------------------------- */
